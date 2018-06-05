@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="isHeadless" value="false"/>
+  <parameter name="site" value="https://accounts.google.com/"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="isHeadless" value="false"/>
+    <parameter name="site" value="https://accounts.google.com/"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="sample.sampleQA.LogIn_PageTest">
+        <methods>
+          <include name="checkValidgmail"/>
+          <include name="OpenBrowser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- sample.sampleQA.LogIn_PageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
